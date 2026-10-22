@@ -5,7 +5,7 @@ Deep Learning for Computer Vision 深度學習於電腦視覺 by Frank Wang 王�
 This course has three homeworks and one final project.
 
    1. 
-      Problem 1: Self-supervised pre-training for image classification 
+      Problem 1: Self-supervised pre-training for image classification and 
       Problem 2: Semantic segmentation
    
    2. Diffusion Models
