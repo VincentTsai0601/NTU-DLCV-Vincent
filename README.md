@@ -19,7 +19,7 @@ This course has three homeworks and one final project.
       
       Problem 2 :PEFT on Vision and Language Model for Image Captioning
 
-Browse 2025 [course website]([https://vllab.ee.ntu.edu.tw/dlcv.html]) for more details.
+Browse 2025 [course website]([(https://vllab.ee.ntu.edu.tw/dlcv.html)]) for more details.
 
 
 ## Outline
