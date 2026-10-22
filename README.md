@@ -3,9 +3,20 @@
 Deep Learning for Computer Vision 深度學習於電腦視覺 by Frank Wang 王鈺強 learn it as audit student
 
 This course has three homeworks and one final project.
-   1. Chinese Extractive Question Answering (QA)
-   2. Traditional Chinese and Classical Chinese Translation
-   3. RAG 
+   1. 
+   Problem 1: Self-supervised pre-training for image classification 
+   Problem 2: Semantic segmentation
+   
+   2. Diffusion Models
+      Problem 1: Conditional Diffusion Models (30%) [digit dataset - MNIST-M & SVHN]
+      Problem 2: DDIM (35%) [face dataset]
+      Problem 3: ControlNet (35%) [ControlNet dataset]
+
+   3. Problem 1: Zero-shot inference with LLaVA
+      ○ 1-1 Zero-shot with origin LLAVA
+      ○ 1-2 Visual Contrastive Decoding
+      
+      Problem 2 :PEFT on Vision and Language Model for Image Captioning
 
 Browse 2025 [course website](https://www.csie.ntu.edu.tw/~miulab/f114-adl/) for more details.
 
