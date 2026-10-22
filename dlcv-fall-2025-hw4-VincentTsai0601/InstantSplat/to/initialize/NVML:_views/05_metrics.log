@@ -1,0 +1,3 @@
+usage: metrics.py [-h] --source_path SOURCE_PATH --model_paths MODEL_PATHS
+                  [MODEL_PATHS ...] [--n_views N_VIEWS]
+metrics.py: error: argument --n_views: invalid int value: 'NVML:'

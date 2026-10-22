@@ -1,0 +1,11 @@
+[38;5;247mic[39m[38;5;245m|[39m[38;5;245m [39m[38;5;247mtorch[39m[38;5;245m.[39m[38;5;247mcuda[39m[38;5;245m.[39m[38;5;247mis_available[39m[38;5;245m([39m[38;5;245m)[39m[38;5;245m:[39m[38;5;245m [39m[38;5;100mFalse[39m
+[38;5;247mic[39m[38;5;245m|[39m[38;5;245m [39m[38;5;247mtorch[39m[38;5;245m.[39m[38;5;247mcuda[39m[38;5;245m.[39m[38;5;247mdevice_count[39m[38;5;245m([39m[38;5;245m)[39m[38;5;245m:[39m[38;5;245m [39m[38;5;36m0[39m
+usage: init_geo.py [-h] --source_path SOURCE_PATH --model_path MODEL_PATH
+                   [--ckpt_path CKPT_PATH] [--device DEVICE]
+                   [--batch_size BATCH_SIZE] [--image_size IMAGE_SIZE]
+                   [--schedule SCHEDULE] [--lr LR] [--niter NITER]
+                   [--min_conf_thr MIN_CONF_THR] [--llffhold LLFFHOLD]
+                   [--n_views N_VIEWS] [--focal_avg] [--conf_aware_ranking]
+                   [--co_vis_dsp] [--depth_thre DEPTH_THRE] [--infer_video]
+init_geo.py: error: argument --n_views: invalid int value: 'NVML:'
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
