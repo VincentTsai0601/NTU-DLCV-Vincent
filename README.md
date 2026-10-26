@@ -9,7 +9,7 @@ This course has three homeworks and one final project.
   - Problem 2: Semantic segmentation
    
 - 2. Diffusion Models
-  - Problem 1: Conditional Diffusion Models (30%) [digit dataset - MNIST-M & SVHN]
+  - Problem 1: Conditional Diffusion Models [digit dataset - MNIST-M & SVHN]
   - Problem 2: DDIM (35%) [face dataset]
       
 
