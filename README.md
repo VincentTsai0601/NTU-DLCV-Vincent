@@ -13,7 +13,7 @@ This course has three homeworks and one final project.
   - Problem 2: DDIM (35%) [face dataset]
       
 
-- 3. - Problem 1: Zero-shot inference with LLaVA
+- 3. Problem 1: Zero-shot inference with LLaVA
   - 1-1 Zero-shot with origin LLAVA
   - 1-2 Visual Contrastive Decoding
       
