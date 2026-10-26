@@ -5,19 +5,19 @@ Deep Learning for Computer Vision 深度學習於電腦視覺 by Frank Wang 王�
 This course has three homeworks and one final project.
 
    1. 
-      Problem 1: Self-supervised pre-training for image classification and 
-      Problem 2: Semantic segmentation
+    - Problem 1: Self-supervised pre-training for image classification and 
+    - Problem 2: Semantic segmentation
    
    2. Diffusion Models
-      Problem 1: Conditional Diffusion Models (30%) [digit dataset - MNIST-M & SVHN]
-      Problem 2: DDIM (35%) [face dataset]
+    - Problem 1: Conditional Diffusion Models (30%) [digit dataset - MNIST-M & SVHN]
+    - Problem 2: DDIM (35%) [face dataset]
       
 
-   3. Problem 1: Zero-shot inference with LLaVA
-      ○ 1-1 Zero-shot with origin LLAVA
-      ○ 1-2 Visual Contrastive Decoding
+   3. - Problem 1: Zero-shot inference with LLaVA
+       - 1-1 Zero-shot with origin LLAVA
+       - 1-2 Visual Contrastive Decoding
       
-      Problem 2 :PEFT on Vision and Language Model for Image Captioning
+      - Problem 2 :PEFT on Vision and Language Model for Image Captioning
 
 Browse 2025 [course website](https://vllab.ee.ntu.edu.tw/dlcv.html) for more details.
 
