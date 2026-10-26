@@ -11,7 +11,7 @@ This course has three homeworks and one final project.
    2. Diffusion Models
       Problem 1: Conditional Diffusion Models (30%) [digit dataset - MNIST-M & SVHN]
       Problem 2: DDIM (35%) [face dataset]
-      Problem 3: ControlNet (35%) [ControlNet dataset]
+      
 
    3. Problem 1: Zero-shot inference with LLaVA
       ○ 1-1 Zero-shot with origin LLAVA
@@ -25,33 +25,43 @@ Browse 2025 [course website](https://vllab.ee.ntu.edu.tw/dlcv.html) for more det
 ## Outline
 
 - [HW1 Spec](./DLCV%20Fall%202022%20-%20hw1_intro.pdf): [Report](./HW1/hw1_r11944004.pdf)
-  - Image classification ← Pretrained BEiT v1
+
+  - Self-Supervised pretraining for image classification ← DINO v1 
     - Accuracy: 0.9360
-  - Image segmentation ← Pretrained Deeplab v3
+  - Image segmentation ← Pretrained SAM v1
     - mIoU: 0.7438
       
 - [HW2 Spec](./DLCV%20Fall%202022%20-%20hw2_intro.pdf): [Report](./HW2/hw2_r11944004.pdf)
-  - Face generation with GAN ← SNGAN (DCGAN with spectral normalization)
-    - FID: 25.986
-    - Face recognition accuracy: 0.9110
-  - Digit generation with diffusion model ← Ho et al. Classifier-Free Diffusion Guidance.
-    - Digit classifier accuracy: 0.9990
-  - Domain adversarial network on MNIST-M, SVHN, and USPS
-    - M→S Accuracy: 0.4943
-    - M→U Accuracy: 0.9025
+  - Digit generation with diffusion model ←  Classifier-Free on MNIST-M, SVHN 
+    - MNIST-M acc = 1.0000 (correct/total = 250/250)
+    - SVHN acc = 0.9880 (correct/total = 247/250)
+    - acc = 0.9940
+
       
 - [HW3 Spec](./DLCV%20Fall%202022%20-%20hw3_intro.pdf): [Report](./HW3/hw3_r11944004.pdf)
-  - Zero-Shot image classification with CLIP ← CLIP L/14
-    - Accuracy: 0.8124
-  - Image captioning with pretrained encoder ← Pretrained DeiT v3 as encoder
-    - CIDEr score: 0.9413
-    - CLIP score: 0.7310
+  - Zero-Shot inference with LLaVA ← CLIP L/14
+    - Zero-shot with origin LLAVA
+    - Accuracy: 0.6150 (615/1000)
+
+    - Visual Contastive Decoding
+    - Accuracy: 0.6450 (645/1000)
+
+
+  - PEFT on Vision and Language Model for Image Captioning ← Pretrained Vision Transformer as encoder
+    - CIDEr score: 1.0015
+    - CLIP score: 0.7404
+    
+  - Strong baseline  - CIDEr of 0.90, CLIPScore of 0.71
   - Attention map visualization for image captioning
   - 
 - [HW4 Spec](./DLCV%20Fall%202022%20-%20hw4_intro.pdf): [Report](./HW4/hw4_r11944004.pdf)
-  - 3D novel view synthesis ← DVGO (voxelized NeRF)
-    - PSNR: 35.6029
-    - SSIM: 0.9769
-  - Self-Supervised pretraining for image classification ← BYOL
-    - Accuracy: 0.5985
-    - Outperforms the supervised equivalent in both full fine-tuning and frozen backbone evaluation.
+  - 3D novel view synthesis ← DVGO (3D Gaussian Splatting)
+    - PSNR: 40.1520
+    - SSIM: 0.9886
+    - LPIPS: 0.0214949
+ 
+  
+    
+
+  
+   
