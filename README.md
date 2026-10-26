@@ -24,21 +24,21 @@ Browse 2025 [course website](https://vllab.ee.ntu.edu.tw/dlcv.html) for more det
 
 ## Outline
 
-- [HW1 Spec](./DLCV%20Fall%202022%20-%20hw1_intro.pdf): [Report](./HW1/hw1_r11944004.pdf)
+- [HW1 Spec](./DLCV%20Fall%202022%20-%20hw1_intro.pdf): [Report](./HW1/hw1_m11115013.pdf)
 
   - Self-Supervised pretraining for image classification ← DINO v1 
     - Accuracy: 0.9360
   - Image segmentation ← Pretrained SAM v1
     - mIoU: 0.7438
       
-- [HW2 Spec](./DLCV%20Fall%202022%20-%20hw2_intro.pdf): [Report](./HW2/hw2_r11944004.pdf)
+- [HW2 Spec](./DLCV%20Fall%202022%20-%20hw2_intro.pdf): [Report](./HW2/hw2_m11115013.pdf)
   - Digit generation with diffusion model ←  Classifier-Free on MNIST-M, SVHN 
     - MNIST-M acc = 1.0000 (correct/total = 250/250)
     - SVHN acc = 0.9880 (correct/total = 247/250)
     - acc = 0.9940
 
       
-- [HW3 Spec](./DLCV%20Fall%202022%20-%20hw3_intro.pdf): [Report](./HW3/hw3_r11944004.pdf)
+- [HW3 Spec](./DLCV%20Fall%202022%20-%20hw3_intro.pdf): [Report](./HW3/hw3_m11115013.pdf)
   - Zero-Shot inference with LLaVA ← CLIP L/14
     - Zero-shot with origin LLAVA
     - Accuracy: 0.6150 (615/1000)
@@ -53,8 +53,8 @@ Browse 2025 [course website](https://vllab.ee.ntu.edu.tw/dlcv.html) for more det
     
   - Strong baseline  - CIDEr of 0.90, CLIPScore of 0.71
   - Attention map visualization for image captioning
-  - 
-- [HW4 Spec](./DLCV%20Fall%202022%20-%20hw4_intro.pdf): [Report](./HW4/hw4_r11944004.pdf)
+  -
+- [HW4 Spec](./DLCV%20Fall%202022%20-%20hw4_intro.pdf): [Report](./HW4/hw4_m11115013.pdf)
   - 3D novel view synthesis ← DVGO (3D Gaussian Splatting)
     - PSNR: 40.1520
     - SSIM: 0.9886
