@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/4AUGnMVG)
 # DLCV-Fall-2025-HW4
 
-Please click [this link](https://docs.google.com/presentation/d/1ZnvPv5h4_8zWKe4LR_4Hv4UmmFxmTzMJLHJEhyOoNhY/edit?usp=sharing) to view the slides of HW4
+
 
 # Usage
 
@@ -47,9 +47,7 @@ You have reference scripts available for debugging and testing your implementati
 * **Testing Metrics:** Test your output and check metrics using **`bash scripts/dust3r/public/run_check_metrics.sh`**.
 * **Interpolated Input:** A similar script (check your provided files, likely named **`save_dust3r_interpolated.sh`** or similar) handles the saving for **interpolated sequence inputs**. Use the logic from the wide-baseline script as a guide.
 
-# Data
-please download `dataset` from the link below
-[https://drive.google.com/drive/folders/1QnxUnuygh6d9zIDGS8y83spoaugLG5Np?usp=sharing](https://drive.google.com/drive/folders/1QnxUnuygh6d9zIDGS8y83spoaugLG5Np?usp=sharing)
+
 
 
 # Submission Rules
