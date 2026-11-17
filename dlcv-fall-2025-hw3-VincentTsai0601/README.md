@@ -38,20 +38,6 @@ If you have any problems related to HW3, you may
 - Post your question under hw3 discuss section in NTU COOL
 
 
-
-# Accuracy 
-
-==================================================
-Accuracy: 0.6150 (615/1000)
-==================================================
-Predictions saved to outputs/p1_pred_without_VCD.json
-
-
-==================================================
-Accuracy: 0.6450 (645/1000)
-==================================================
-Predictions saved to outputs/p1_pred.json
-
 # implementation:
 ## Without VCD 
 ```bash 
