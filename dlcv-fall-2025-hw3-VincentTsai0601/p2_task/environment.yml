@@ -1,0 +1,8 @@
+name: DLCV-HW3-P2
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.10
+prefix: /home/vinnietsai0601/anaconda3/envs/DLCV-HW3-P2

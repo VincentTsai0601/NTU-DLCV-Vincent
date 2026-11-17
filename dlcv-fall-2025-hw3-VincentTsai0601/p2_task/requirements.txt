@@ -1,0 +1,9 @@
+torch==2.5.1
+torchvision==0.20.1
+timm==1.0.9
+loralib==0.1.2
+numpy==1.26.4
+Pillow==11.0.0
+tqdm==4.66.5
+regex
+huggingface_hub==0.25.2
