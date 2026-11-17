@@ -1,0 +1,15 @@
+# Requirements for SAM Semantic Segmentation with Visualization
+torch>=1.9.0
+torchvision>=0.10.0
+opencv-python>=4.5.0
+numpy>=1.21.0
+Pillow>=8.3.0
+segment-anything
+
+# Visualization dependencies
+matplotlib>=3.4.0
+scipy>=1.7.0
+
+# Additional dependencies that might be needed
+tqdm>=4.60.0
+pathlib

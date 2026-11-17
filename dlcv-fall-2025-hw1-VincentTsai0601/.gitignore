@@ -1,0 +1,7 @@
+# Keep model checkpoints locally; they exceed GitHub's regular file limit.
+sam/sam_vit_h_4b8939.pth
+src/checkpoint.pth
+src/p2_outuput/deeplabv3_clean_best_balanced.pth
+src/p2_outuput/deeplabv3_clean_epoch_0.pth
+src/p2_outuput/deeplabv3_clean_epoch_26.pth
+src/p2_outuput/deeplabv3_clean_final.pth
