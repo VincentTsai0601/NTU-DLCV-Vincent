@@ -5,3 +5,6 @@ src/p2_outuput/deeplabv3_clean_best_balanced.pth
 src/p2_outuput/deeplabv3_clean_epoch_0.pth
 src/p2_outuput/deeplabv3_clean_epoch_26.pth
 src/p2_outuput/deeplabv3_clean_final.pth
+
+# Generated segmentation images stay local.
+sam/segmentation_results/
